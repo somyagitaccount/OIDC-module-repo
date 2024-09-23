@@ -19,8 +19,8 @@ attribute_name      = "LockID"
 attribute_type      = "S"
 
 
-# AMI               = "ami-08d8ac128e0a1b91c"   
-# ec2_instance_type = "t2.micro"
-# instance_name     = "MyEC2Instance"
+AMI               = "ami-08d8ac128e0a1b91c"   
+ec2_instance_type = "t2.micro"
+instance_name     = "MyEC2Instance"
 
 

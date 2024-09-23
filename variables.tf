@@ -18,16 +18,11 @@ variable "role_name" {
   type        = string
 }
 
-# variable "openid_connect_provider_arn" {
-#   description = "ARN of the OpenID Connect provider"
+# variable "github_repo_name" {
+#   description = "GitHub repository name in the format 'owner/repo'"
 #   type        = string
+#   default = "somyagitaccount/OIDC-final"
 # }
-
-variable "github_repo_name" {
-  description = "GitHub repository name in the format 'owner/repo'"
-  type        = string
-  default = "somyagitaccount/OIDC-final"
-}
 
 variable "policy_name" {
   description = "Name of the IAM policy"
