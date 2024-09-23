@@ -4,14 +4,15 @@ variable "role_name" {
 }
 
 variable "openid_connect_provider_arn" {
-  description = "ARN of the OpenID Connect provider"
+  description = "The ARN of the OIDC provider"
   type        = string
 }
+
 
 variable "github_repo_name" {
   description = "GitHub repository name in the format 'owner/repo'"
   type        = string
-  default = "somyagitaccount/OIDC-final"
+  default = "somyagitaccount/OIDC-module-test-repo"
 }
 
 variable "policy_name" {
@@ -24,3 +25,5 @@ variable "policy_description" {
   type        = string
   
 }
+
+

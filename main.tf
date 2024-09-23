@@ -11,11 +11,12 @@ module "iam_role_module" {
 
   # Passing the variables from the .tfvars file
   role_name                 = var.role_name
-  openid_connect_provider_arn = var.openid_connect_provider_arn
+  openid_connect_provider_arn = module.oidc_provider.oidc_provider_arn
   github_repo_name          = var.github_repo_name
   policy_name               = var.policy_name
   policy_description        = var.policy_description
 }
+
 
 
 module "s3_bucket" {

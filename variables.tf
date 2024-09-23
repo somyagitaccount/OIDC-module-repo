@@ -18,10 +18,10 @@ variable "role_name" {
   type        = string
 }
 
-variable "openid_connect_provider_arn" {
-  description = "ARN of the OpenID Connect provider"
-  type        = string
-}
+# variable "openid_connect_provider_arn" {
+#   description = "ARN of the OpenID Connect provider"
+#   type        = string
+# }
 
 variable "github_repo_name" {
   description = "GitHub repository name in the format 'owner/repo'"
