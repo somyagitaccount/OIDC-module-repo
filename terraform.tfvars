@@ -4,7 +4,7 @@ client_id_list = ["sts.amazonaws.com"]
 
 
 role_name                 = "custom_trust_policy_role"
-openid_connect_provider_arn = "arn:aws:iam::123456789012:oidc-provider/oidc.eks.us-west-2.amazonaws.com/id/example"
+openid_connect_provider_arn = "arn:aws:iam::825765397094:oidc-provider/token.actions.githubusercontent.com"
 policy_name               = "full_access_policy"
 policy_description        = "Policies granting full access to everything"
 
