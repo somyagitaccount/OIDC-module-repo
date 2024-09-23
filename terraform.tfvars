@@ -9,12 +9,12 @@ policy_name               = "full_access_policy"
 policy_description        = "Policies granting full access to everything"
 
 
-s3_bucket_name   = "my-bucket-098765432123456"
+s3_bucket_name   = "terraform-s3-statefile-bucket"
 bucket_name_tag  = "Terraform-State"
 environment_tag  = "Dev"
 
 
-dynamodb_table_name = "my-state-lock-table"
+dynamodb_table_name = "terraform-statelock-table"
 hash_key_value      = "LockID"
 attribute_name      = "LockID"
 attribute_type      = "S"
