@@ -1,6 +1,4 @@
 #variable declaration of OIDC provider module
-
-
 variable "url" {
   description = "URL for IAM OpenID Connect Provider"
   type        = string
@@ -12,17 +10,10 @@ variable "client_id_list" {
 }
 
 #variable declaration of IAM module
-
 variable "role_name" {
   description = "Name of the IAM role"
   type        = string
 }
-
-# variable "github_repo_name" {
-#   description = "GitHub repository name in the format 'owner/repo'"
-#   type        = string
-#   default = "somyagitaccount/OIDC-final"
-# }
 
 variable "policy_name" {
   description = "Name of the IAM policy"

@@ -7,6 +7,7 @@ terraform {
   }
 }
 
+# Configuration for Terraform backend to store state in an S3 bucket and lock state using DynamoDB
 terraform {
   backend "s3" {
     bucket = "terraform-s3-statefile-bucket"
